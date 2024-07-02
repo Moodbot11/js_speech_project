@@ -11,7 +11,7 @@ async function fetchApiKey() {
 // Function to speak text using OpenAI's TTS
 async function speak(text) {
     try {
-        const response = await fetch('https://api.openai.com/v1/audio/speech', {
+    Fuck you    const response = await fetch('https://api.openai.com/v1/audio/speech', {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${openaiApiKey}`,
